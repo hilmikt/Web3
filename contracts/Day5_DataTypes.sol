@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract TypesAndFunctions {
+contract Day5_DataTypes {
     uint public age = 17;
     string public name = "Hilmi";
-    bool public isDev = true;
+    bool public isLearning = true;
     address public owner;
 
     constructor() {
@@ -15,7 +15,11 @@ contract TypesAndFunctions {
         age = _newAge;
     }
 
-    function getSummary() public view returns (string memory, uint) {
-        return (name, age);
+    function getDetails() public view returns (string memory, uint, bool) {
+        return (name, age, isLearning);
+    }
+
+    function getDouble(uint _x) public pure returns (uint) {
+        return _x * 2;
     }
 }
