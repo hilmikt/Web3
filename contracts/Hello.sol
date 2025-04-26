@@ -1,8 +1,19 @@
 // SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
-pragma solidity  >=0.8.2 <0.9.0;
+contract HelloWorld {
+    string public greeting = "Hello, Web3!";
 
-contract Hello {
+    function setGreeting(string memory _newGreet) public {
+        greeting = _newGreet;
+    }
 
-    string public welcome = "Hello World";
+    function getGreeting() public view returns (string memory) {
+        return greeting;
+    }
+
+    function tweaking() public pure returns (string memory) {
+        string memory creatorName = "Hilmi";
+        return string(abi.encodePacked("Hello ", creatorName, " from Web3!"));
+}
 }
