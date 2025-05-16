@@ -7,7 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "DogNumberCheck",
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfDogNumberCheck",
 				"outputs": [
 					{
 						"internalType": "contract dogNumberCheck",
@@ -16,13 +29,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "createSimpleStorageContract",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -54,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/StorageFactory.sol": {
-			"keccak256": "0x67637ebbe7364e9a1b7f7c95baeff13e26e2675631118e4b69129f47e3394165",
+			"keccak256": "0xd4d9250f66cba0158e3b2e2a87acf66b6cd8bf6ba84274f017a406d51bf00557",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6b699cbb85fc3c195cbaa29bb2b5f60dfdf83919bd6fe3cc41caaf02d5d68ed5",
-				"dweb:/ipfs/QmRGNMrk9W5dGaB5xn7jxm6hZHz8nM18Z8p2vhsTsD19Jb"
+				"bzz-raw://dea1d499882fac4619205a78ff5486785a2af655f4869b174c6470401782cc55",
+				"dweb:/ipfs/QmXpYzqnv2TNtSxridVe1RBjRHctJN4AMXzHNsZz6g6AFr"
 			]
 		},
 		"contracts/example_mapping.sol": {
