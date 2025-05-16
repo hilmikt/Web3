@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "DogNumberCheck",
+				"outputs": [
+					{
+						"internalType": "contract dogNumberCheck",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StorageFactory.sol": {
+			"keccak256": "0x67637ebbe7364e9a1b7f7c95baeff13e26e2675631118e4b69129f47e3394165",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6b699cbb85fc3c195cbaa29bb2b5f60dfdf83919bd6fe3cc41caaf02d5d68ed5",
+				"dweb:/ipfs/QmRGNMrk9W5dGaB5xn7jxm6hZHz8nM18Z8p2vhsTsD19Jb"
+			]
+		},
+		"contracts/example_mapping.sol": {
+			"keccak256": "0x4dfbefc3a88644172712c33b7e1b8fdc935fbb3b78851e72fed4e3c15eab69dc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2dd3b9259e84c2a94d67b85c4372c62dbd6dd0ea2dba39f317ad5c47332de758",
+				"dweb:/ipfs/QmRn3uvNDC7Qng6KxU1L2y7avgT3TNmZ3xQTtt35raSeMq"
+			]
+		}
+	},
+	"version": 1
+}
