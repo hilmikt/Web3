@@ -30,6 +30,24 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newSimpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -60,11 +78,11 @@
 	},
 	"sources": {
 		"contracts/StorageFactory.sol": {
-			"keccak256": "0xd4d9250f66cba0158e3b2e2a87acf66b6cd8bf6ba84274f017a406d51bf00557",
+			"keccak256": "0xe87ecb6b6d39a3bdbed241d97f3e6576d17d68fb30301d0e4551c39f3d1bebcf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dea1d499882fac4619205a78ff5486785a2af655f4869b174c6470401782cc55",
-				"dweb:/ipfs/QmXpYzqnv2TNtSxridVe1RBjRHctJN4AMXzHNsZz6g6AFr"
+				"bzz-raw://f9d8d543ea5b9ed4d7fff8d6bf9d51679a3237774bd16e131efff15a3e6f71d7",
+				"dweb:/ipfs/QmZHiDDAsYRxWCfcKeHrRAC53TjmvP5jp3HUfALCrfyu88"
 			]
 		},
 		"contracts/example_mapping.sol": {
