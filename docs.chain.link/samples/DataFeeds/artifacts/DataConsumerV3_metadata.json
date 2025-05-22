@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getChainlinkDataFeedLatestAnswer",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": {
+					"notice": "Network: Sepolia Aggregator: BTC/USD Address: 0x1b44F3514812d835EB1BDB0acB33d3fA3351Ee43"
+				},
+				"getChainlinkDataFeedLatestAnswer()": {
+					"notice": "Returns the latest answer."
+				}
+			},
+			"notice": "If you are reading data feeds on L2 networks, you must check the latest answer from the L2 Sequencer Uptime Feed to ensure that the data is accurate in the event of an L2 sequencer outage. See the https://docs.chain.link/data-feeds/l2-sequencer-feeds page for details.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"docs.chain.link/samples/DataFeeds/DataConsumerV3.sol": "DataConsumerV3"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts@1.4.0/src/v0.8/shared/interfaces/AggregatorV3Interface.sol": {
+			"keccak256": "0xf9510b93a8b01dac3ac6b4f0acc347b0361b4bcb0482a15c2bcf0dcd8f68e2fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e8d1c366bfb117b6094402363a8a8d09abc483c33d1d704bd4a61282888a28de",
+				"dweb:/ipfs/QmNQwmbRwpzhoh7FET1VwVHMZq9LPpf3Ag7tpVrhxSgrez"
+			]
+		},
+		"docs.chain.link/samples/DataFeeds/DataConsumerV3.sol": {
+			"keccak256": "0x58c7d1b06a512ea27ecbbde7f864a5b4b4e2e0b79d6f03220343962e2ce1efe9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6943a8d94233df920a183ca53ed43b11c568ea15ea45f8504208e233517d5455",
+				"dweb:/ipfs/QmWFV2cS9jt2u289nWTj2KZnWs9NhW6dQmo6xjrtecpKkn"
+			]
+		}
+	},
+	"version": 1
+}
